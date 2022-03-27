@@ -74,4 +74,44 @@ nav {
   padding: 2rem 20rem;
   font-size: 1.1rem;
 }
+
+.button {
+  text-decoration: none;
+  border: 2px solid white;
+  padding: 0.75rem 3rem 0.75rem 3rem;
+  border-radius: 2rem;
+  margin-bottom: 1.2rem;
+}
+
+.button:hover {
+  background-color: white;
+  color: burlywood;
+}
+
+.title {
+  font-size: 3rem;
+}
+
+@media (max-width: 480px) {
+  nav {
+    padding: 3rem 1rem;
+  }
+  .title {
+    font-size: 1.5rem;
+  }
+  .button {
+    border: 1px solid white;
+    padding: 1rem 2rem 1rem 2rem;
+    margin-top: -0.75rem;
+  }
+  .content {
+    width: 100%;
+  }
+  .card {
+    width: 100%;
+  }
+  .text {
+    padding: 5px 5%;
+  }
+}
 /*# sourceMappingURL=style.css.map */
