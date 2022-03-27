@@ -51,4 +51,13 @@ nav{
     justify-content: space-around;
     align-items: center;
     min-height: 60vh;
+    text-align: center;
+    h3{
+        padding: 1rem 0 0.5rem 0;
+    }
+}
+
+.text{
+    padding: 2rem 20rem;
+    font-size: 1.1rem;
 }
